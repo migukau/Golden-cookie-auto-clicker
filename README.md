@@ -6,7 +6,7 @@ An automated bot that detects and clicks on golden cookies in **Cookie Clicker**
 Ensure you have **Python 3.x** installed, then install the necessary dependencies:  
 ```bash
 pip install pyautogui mss opencv-python numpy keyboard
-
+```
 Download the files in the repository. 
 
 ## ⚠️ **Important Setup**  
@@ -25,5 +25,5 @@ You may also need to install required libraries before running the script.
 3. **Run the script**:
    ```bash
    python3 golden_cookie_clicks.py
-
+```
 
