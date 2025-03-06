@@ -25,5 +25,5 @@ You may also need to install required libraries before running the script.
 3. **Run the script**:
    ```bash
    python3 golden_cookie_clicks.py
-```
+
 
