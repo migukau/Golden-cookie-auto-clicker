@@ -16,7 +16,7 @@ Before running the script, **open `golden_cookie_clicks.py`** and configure:
 - **Resolution Scaling:** Adjust the scaling settings (e.g., 100%, 125%) to match your display.
 
 ## 📦Prerequisites
-- **Python 3.x**
+- **Python 3**
 - Install required libraries:
   ```bash
   pip install pyautogui mss opencv-python numpy keyboard
