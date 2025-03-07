@@ -102,6 +102,10 @@ def golden_cookie_detector():
         template = cv2.cvtColor(template, cv2.COLOR_BGRA2BGR)
         print("Converted template image to BGR")
 
+    # Resize the template based on the scaling factor
+    scaling_factor = scaling / 1.25  # Assuming the template was taken at 125% scaling
+    template = cv2.resize(template, (0, 0), fx=scaling_factor, fy=scaling_factor)
+    
     while not stop_event.is_set():
         try:
             with mss.mss() as sct:
